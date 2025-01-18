@@ -18,10 +18,10 @@ export class AppComponent {
       { iconName: 'headset_mic', iconLabel: 'Music Icon' },
     ];
   public exampleCustomIcons: Array<{ iconName: string; iconLabel: string }> = [
-    { iconName: 'shared__logo_icon', iconLabel: 'Logo' },
     { iconName: 'shared__custom_play_icon', iconLabel: 'Custom Play' },
-    { iconName: 'shared__speed_red', iconLabel: 'Red Meter' },
-    { iconName: 'shared__speed_orange', iconLabel: 'Orange Meter' },
-    { iconName: 'shared__speed_green', iconLabel: 'Green Meter' },
+    { iconName: 'shared__speed_red', iconLabel: 'Custom Red Speed' },
+    { iconName: 'shared__speed_orange', iconLabel: 'Custom Orange Speed' },
+    { iconName: 'shared__speed_green', iconLabel: 'Custom Green Speed' },
+    { iconName: 'shared__logo_icon', iconLabel: 'Logo Icon' },
   ];
 }
